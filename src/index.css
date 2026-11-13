@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --color-canvas-bg: #d7d9e4;
+    --color-card-teal: #0f3b42;
+    --color-panel-teal: #0c3238;
+    --color-inner-teal: #082428;
+    --color-border-teal: #1b535c;
+    --color-border-subtle: #14464e;
+    --color-text-main: #E9EDF2;
+    --color-red: #ef4444;
+    --color-red-bright: #f87171;
+    --color-gray-control: #475569;
+    --color-yellow: #f59e0b;
+    --color-green: #10b981;
+    --color-blue: #0284c7;
+  }
+
+  body {
+    background-color: #d7d9e4;
+    color: #0f3b42;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Deep Teal #0f3b42 Industrial Card Shadows on #d7d9e4 Canvas */
+.shadow-industrial {
+  box-shadow: 0 10px 25px -4px rgba(15, 59, 66, 0.22), 0 4px 10px -2px rgba(15, 59, 66, 0.12);
+}
+
+.shadow-industrial-lg {
+  box-shadow: 0 16px 36px -5px rgba(15, 59, 66, 0.28), 0 8px 16px -3px rgba(15, 59, 66, 0.15);
+}
+
+/* Subtle hairline highlight borders for industrial hardware panels */
+.border-industrial {
+  border: 1px solid #1b535c;
+}
+
+.border-industrial-subtle {
+  border: 1px solid #14464e;
+}

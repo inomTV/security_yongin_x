@@ -1,0 +1,6 @@
+{
+  "name": "FireSafety Control — Металлургия ёнғин хавфсизлиги",
+  "description": "Металлургия корхоналари учун ёнғин хавфсизлигини рақамли назорат қилиш, инспектор чек-листлари, камчиликлар иш оқими (workflow) ва раҳбарият мониторинг тизими.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
